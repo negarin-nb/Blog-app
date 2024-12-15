@@ -35,9 +35,21 @@ export default function RecentBlogPosts({ posts }: { posts: PostType[] }) {
           <p className="text-[#667085]">{posts[0]?.body.substring(0, 100)}</p>
 
           <div className="flex flex-row space-x-2">
-            <TagButton bgcolor={"#6941C6"} text={"design"} />
-            <TagButton bgcolor={"#C11574"} text={"presentation"} />
-            <TagButton bgcolor={"#3538CD"} text={"research"} />
+            <TagButton
+              bgcolor={"bg-[#6941C6]"}
+              textcolor={"text-[#6941C6]"}
+              text={"design"}
+            />
+            <TagButton
+              bgcolor={"bg-[#C11574]"}
+              textcolor={"text-[#C11574]"}
+              text={"presentation"}
+            />
+            <TagButton
+              bgcolor={"bg-[#3538CD]"}
+              textcolor={"text-[#3538CD]"}
+              text={"research"}
+            />
           </div>
         </div>
 

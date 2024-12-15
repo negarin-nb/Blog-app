@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import PostCard from "../component/postCard/postCard";
 import AllBlogPosts from "../component/postList/allPosts";
 import { getPosts } from "../../requests/post";
 import { useQuery } from "@tanstack/react-query";

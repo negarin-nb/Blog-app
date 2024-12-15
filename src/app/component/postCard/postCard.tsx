@@ -25,7 +25,13 @@ export default function PostCard({ postItem }: { postItem: PostType }) {
             <h1 className="text-[24px] font-semibold">
               {postItem?.title.substring(0, 100)}
             </h1>
-            <img className=" pt-[14px] ps-6" src="/titleIcon.svg" alt="icon" />
+            <Image
+              className=" pt-[14px] ps-6"
+              src="/titleIcon.svg"
+              alt="icon"
+              width={36}
+              height={36}
+            />
           </div>
         </Link>
 
@@ -34,9 +40,21 @@ export default function PostCard({ postItem }: { postItem: PostType }) {
         </p>
       </div>
       <div className="flex pt-4 space-x-2">
-        <TagButton bgcolor={"#6941C6"} text={"design"} />
-        <TagButton bgcolor={"#C11574"} text={"presentation"} />
-        <TagButton bgcolor={"#3538CD"} text={"research"} />
+        <TagButton
+          bgcolor={"bg-[#6941C6]"}
+          textcolor={"text-[#6941C6]"}
+          text={"design"}
+        />
+        <TagButton
+          bgcolor={"bg-[#C11574]"}
+          textcolor={"text-[#C11574]"}
+          text={"presentation"}
+        />
+        <TagButton
+          bgcolor={"bg-[#3538CD]"}
+          textcolor={"text-[#3538CD]"}
+          text={"research"}
+        />
       </div>
     </div>
   );
