@@ -5,7 +5,7 @@ import AllBlogPosts from "../component/postList/allPosts";
 import { getPosts } from "../../requests/post";
 import { useQuery } from "@tanstack/react-query";
 
-export const BlogPage = () => {
+const BlogPage = () => {
   //let posts: PostType[] = await getPosts();
 
   const {
