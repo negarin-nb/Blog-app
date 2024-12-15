@@ -6,7 +6,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useParams } from "next/navigation";
 import Comments from "./comments";
 
-const SinglePostPage = ({ params }: { params: { id: string } }) => {
+const SinglePostPage = () => {
   const { id }: { id: string } = useParams();
 
   const {
