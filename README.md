@@ -26,6 +26,8 @@ Figma link is https://www.figma.com/proto/a1wNnXiJ6FmK2QMaC4nmBt/The-Blog---A-We
 
 ## Demo
 
+Demo presents here https://blog-app-liart-omega.vercel.app/
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -34,7 +36,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
 
 ## Deploy on Vercel
 
